@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Gaza Strip",
+    "lat": 31.5,
+    "lng": 34.47,
+    "severity": "Severe",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Gaza_Strip_map.png/640px-Gaza_Strip_map.png"
+  },
+  {
+    "name": "Ukraine - Donbas",
+    "lat": 48.0,
+    "lng": 37.8,
+    "severity": "Active",
+     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Donbas_map.png/640px-Donbas_map.png"
+  }
+]
