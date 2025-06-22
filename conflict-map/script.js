@@ -27,25 +27,11 @@ fetch('conflicts.json')
     globe.controls().enableZoom = false;
     globe.controls().enablePan = false;
 
-    // Optional: toggle autorotate on click
     document.getElementById('globeViz').addEventListener('click', () => {
       globe.controls().autoRotate = !globe.controls().autoRotate;
     });
 
-    function showPopup(point) {
-  const popup = document.getElementById('popup');
-  const popupImg = document.getElementById('popup-img');
-
-  document.getElementById('popup-title').textContent = point.label;
-
-  // fallback image on error
-  popupImg.onerror = function () {
-    this.src = 'https://via.placeholder.com/400x250.png?text=Image+Unavailable';
-  };
-
-  popupImg.src = point.image;
-  popup.style.display = 'flex';
-}
+    
 
 
     document.getElementById('popup-close').addEventListener('click', () => {
